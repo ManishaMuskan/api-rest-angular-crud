@@ -7,7 +7,7 @@ var _ = require('lodash');
 //Create the application
 var app = express(); // this is creating the express application.
 
-//Add Middleware necessary for REST APIs
+//Add Middleware necessary for REST APIs.
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(methodOverride('X-HTTP-Method-Override'));
