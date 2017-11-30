@@ -1,0 +1,38 @@
+Database in MongoDB should be named as: MeanApp
+collection name: movies
+
+MeanApp.movies will have this:- For example:
+
+{
+_id: "5a14035887dcf1249014d79e",
+title: "The Empire Strikes Back",
+url: "http://youtube.com/embed/96v4XraJEPI"
+},
+{
+_id: "5a14035887dcf1249014d79f",
+title: "A New Hope",
+url: "https://youtube.com/embed/1g3_CFmnU7k"
+},
+{
+_id: "5a14035887dcf1249014d7a0",
+title: "Return of the Jedi",
+url: "http://youtube.com/embed/5UfA_aKBCMc"
+},
+{
+_id: "5a17bc71ec2bc200793f109c",
+title: "A beautiful mind",
+url: "https://www.youtube.com/embed/WFJgUm7iOKw",
+__v: 0
+},
+{
+_id: "5a17d5168b12ba027b058ebd",
+title: "The pursuit of Happyness",
+url: "https://www.youtube.com/embed/89Kq8SDyvfg",
+__v: 0
+},
+{
+_id: "5a1f9ec0ad81200285f2f5d9",
+title: "Avengers : Infinity War",
+url: "https://www.youtube.com/embed/6ZfuNTqbHE8",
+__v: 0
+}
